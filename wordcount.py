@@ -11,5 +11,3 @@ for line in data:
        word_counts[word] = word_counts.get(word, 0) + 1
 
 print(word_counts.items())
-
-#print(f"For {word}, the count, the amount of times this appears in the file is: {}")
